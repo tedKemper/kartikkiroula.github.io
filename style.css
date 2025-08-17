@@ -90,7 +90,9 @@ body {
 
 .hero-img img {
   width: 300px;
-  border-radius: 50%;
+  height: 300px;       /* force it to be square */
+  object-fit: cover;   /* crop to fit nicely */
+  border-radius: 10px; /* small rounded corners (optional) */
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   animation: float 3s ease-in-out infinite;
 }
@@ -174,3 +176,4 @@ footer {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-15px); }
 }
+
