@@ -1,35 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kartik | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Hi, I'm Kartik 👋</h1>
-    <p>Software Engineer | ML Enthusiast | Tech Explorer</p>
-  </header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Kartik</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <main>
-    <section>
-      <h2>About Me</h2>
-      <p>I love coding, AI, and building impactful projects.</p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hello, I'm <span>Kartik</span> 👋</h1>
+      <p>A Software Engineer & ML Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    <div class="hero-img">
+      <img src="images/profile.png" alt="Profile picture">
+    </div>
+  </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="#">Project 1 - Machine Learning</a></li>
-        <li><a href="#">Project 2 - Portfolio Website</a></li>
-        <li><a href="#">Project 3 - Open Source</a></li>
-      </ul>
-    </section>
-  </main>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I’m passionate about coding, machine learning, and building impactful
+      applications. I love exploring new technologies and sharing knowledge
+      through projects.
+    </p>
+  </section>
 
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="images/project1.jpg" alt="Project 1">
+        <h3>Machine Learning Model</h3>
+        <p>Built a predictive ML model for real-world data analysis.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project2.jpg" alt="Project 2">
+        <h3>Web App Portfolio</h3>
+        <p>Developed a modern web application with responsive design.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/project3.jpg" alt="Project 3">
+        <h3>Open Source</h3>
+        <p>Contributed to open-source projects and improved performance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>📧 your.email@example.com</p>
+    <p>
+      🌐 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      | <a href="https://github.com/kartikkiroula" target="_blank">GitHub</a>
+    </p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>📧 your.email@example.com | 🌐 <a href="https://linkedin.com/in/yourprofile">LinkedIn</a></p>
+    <p>© 2025 Kartik Kiroula | Built with ❤️</p>
   </footer>
 </body>
 </html>
